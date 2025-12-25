@@ -1,0 +1,100 @@
+{
+  "$schema": "https://aisystant.com/schemas/guides-manifest.json",
+  "name": "MIM Program Guides",
+  "description": "Централизованное хранилище руководств и методических материалов для экосистемы AISYSTANT",
+  "version": "0.1.0",
+  "repository": "https://github.com/aisystant/guides",
+  "organization": "AISYSTANT",
+
+  "programs": [
+    {
+      "id": "1",
+      "slug": "personal",
+      "title": "Личное развитие",
+      "description": "Программа личного развития: саморазвитие, практики, системное мышление, фитнес",
+      "path": "programs/1-personal"
+    },
+    {
+      "id": "2",
+      "slug": "work",
+      "title": "Рабочее развитие",
+      "description": "Программа рабочего развития: рациональная работа, методология, системная инженерия, менеджмент",
+      "path": "programs/2-work"
+    },
+    {
+      "id": "3",
+      "slug": "research",
+      "title": "Исследовательское",
+      "description": "Исследовательская программа: интеллект-стек",
+      "path": "programs/3-research"
+    }
+  ],
+
+  "content_types": {
+    "instruction": {
+      "extension": ".md",
+      "code_prefix": "",
+      "description": "Текстовое руководство в Markdown"
+    },
+    "table": {
+      "extension": ".table.yaml",
+      "code_prefix": "T",
+      "description": "Таблица моделирования с JSON Schema"
+    },
+    "question": {
+      "extension": ".question.yaml",
+      "code_prefix": "Q",
+      "description": "Вопрос или кейс для рефлексии"
+    },
+    "case": {
+      "extension": ".case.yaml",
+      "code_prefix": "C",
+      "description": "Кейс для анализа"
+    },
+    "rubric": {
+      "extension": ".rubric.yaml",
+      "code_prefix": "R",
+      "description": "Рубрика оценки для ДЗ-чекера"
+    },
+    "image": {
+      "extensions": [".png", ".jpg", ".jpeg", ".svg", ".webp"],
+      "code_prefix": "I",
+      "description": "Изображение"
+    }
+  },
+
+  "naming_conventions": {
+    "physical": {
+      "pattern": "NN-slug-name",
+      "description": "Двузначный номер + kebab-case slug",
+      "examples": ["01-attention", "02-focus.md"]
+    },
+    "logical": {
+      "pattern": "P.G.SS.NN",
+      "description": "Программа.Руководство.Раздел.Подраздел",
+      "examples": ["1.1.01.02", "2.3.05.01"]
+    }
+  },
+
+  "special_folders": {
+    "_meta": "Метаданные уровня",
+    "_check": "Рубрики для ДЗ-чекера",
+    "_templates": "Шаблоны файлов",
+    "assets": "Изображения и медиафайлы",
+    "tables": "Сквозные таблицы руководства",
+    "questions": "Вопросы и кейсы уровня руководства"
+  },
+
+  "mcp_endpoints": {
+    "check_context": "/check-context/{guide_ref}",
+    "get_section": "/section/{section_ref}",
+    "get_table": "/table/{table_id}",
+    "search": "/search?q={query}"
+  },
+
+  "meta": {
+    "spec_version": "0.9",
+    "created": "2025-01-01",
+    "updated": "2025-01-01"
+  }
+}
