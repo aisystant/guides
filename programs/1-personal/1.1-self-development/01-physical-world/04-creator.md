@@ -1,16 +1,13 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.4"
+id: "1.1.01.04"
+type: text
 title: Создатель, меняющий мир к лучшему
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-08-agent.png
   - fig-09-engineering.png
   - fig-10-mastery.png
-referenced_concepts:
+concepts:
   - создатель
   - агент
   - агентность

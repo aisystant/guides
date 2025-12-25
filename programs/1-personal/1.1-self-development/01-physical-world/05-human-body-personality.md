@@ -1,13 +1,9 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.5"
+id: "1.1.01.05"
+type: text
 title: "Человек: тело и личность"
-status: active
-modified: 2025-09-12
-content_type: full
-images: []
-referenced_concepts:
+
+concepts:
   - человек
   - тело
   - экзотело

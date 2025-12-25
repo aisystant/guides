@@ -1,15 +1,12 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.3"
+id: "1.1.01.03"
+type: text
 title: Техноэволюция
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-06-exocortex.png
   - fig-07-knowledge-time.png
-referenced_concepts:
+concepts:
   - техноэволюция
   - мемы
   - познание

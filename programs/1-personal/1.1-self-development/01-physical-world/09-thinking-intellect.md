@@ -1,14 +1,11 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.9"
+id: "1.1.01.09"
+type: text
 title: Мышление и интеллект
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-17-brain-thinking.jpg
-referenced_concepts:
+concepts:
   - мозг
   - мышление
   - быстрое и медленное мышление

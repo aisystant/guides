@@ -1,17 +1,14 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.2"
+id: "1.1.01.02"
+type: text
 title: Теория, модели и описания реальности
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-02-scientific-models.png
   - fig-03-world-descriptions.png
   - fig-04-sota.png
   - fig-05-theory-perception.png
-referenced_concepts:
+concepts:
   - картина мира
   - научные и ненаучные картины мира
   - вероятность предсказания

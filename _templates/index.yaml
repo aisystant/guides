@@ -1,0 +1,55 @@
+# Шаблон структуры курса (index.yaml)
+# Этот файл — единый источник истины для навигации и машинной обработки
+# Располагается в корне каждого руководства рядом с index.md
+
+id: C.Guide.TemplateName        # Уникальный ID курса
+code: "X.Y"                     # Код курса (например, "1.1")
+title: Название руководства
+program: C.Program.ProgramName  # Ссылка на программу
+
+meta:
+  version: "1.0.0"
+  status: draft                 # draft | review | active
+  created: YYYY-MM-DD
+  modified: YYYY-MM-DD
+  estimated_hours: 10-20        # Оценка времени на прохождение
+
+authors:
+  main: Имя Автора
+  maintainers:
+    - Имя Мейнтейнера
+
+prerequisites: []               # ID курсов-пререквизитов
+unlocks:                        # Какие курсы открывает
+  - "X.Z-next-course"
+
+# Структура разделов курса
+# Порядок элементов в массивах определяет порядок отображения
+sections:
+  - id: "00"                    # ID раздела (используется в path)
+    path: 00-section-name       # Имя папки раздела
+    title: Название раздела
+    description: Краткое описание раздела
+    estimated_hours: 2
+    items:                      # Содержимое раздела
+      - id: "01"                # Порядковый номер внутри раздела
+        file: 01-item-name.md   # Имя файла
+        type: text              # text | table | question | case
+        title: Название материала
+      - id: "02"
+        file: 02-questions.question.yaml
+        type: question
+        title: Вопросы к разделу
+
+  - id: "01"
+    path: 01-next-section
+    title: Следующий раздел
+    description: null           # null если раздел еще не готов
+    estimated_hours: null
+    items: []                   # Пустой массив если нет контента
+
+# Типы элементов (type):
+# - text:     Текстовый материал (.md)
+# - table:    Таблица моделирования (.table.yaml)
+# - question: Вопросы/задания (.question.yaml)
+# - case:     Кейс/практика (.case.yaml)

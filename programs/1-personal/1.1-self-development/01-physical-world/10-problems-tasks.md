@@ -1,13 +1,9 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.10"
+id: "1.1.01.10"
+type: text
 title: Мир задач и мир проблем
-status: active
-modified: 2025-09-12
-content_type: full
-images: []
-referenced_concepts:
+
+concepts:
   - задача
   - проблема
 ---
