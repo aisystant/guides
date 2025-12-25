@@ -1,0 +1,71 @@
+# Шаблон таблицы моделирования
+# Код: T.P.G.SS.NN (T = Table, P = Program, G = Guide, SS = Section, NN = Number)
+
+id: T.TableName
+title: "Название таблицы"
+description: "Описание назначения таблицы и как её заполнять"
+
+# Ссылка на инструкцию, которая объясняет как заполнять таблицу
+guide_ref: "P.G.SS.NN"
+
+# JSON Schema для валидации данных
+schema:
+  type: object
+  required:
+    - field1
+    - field2
+  properties:
+    field1:
+      type: string
+      title: "Название колонки 1"
+      description: "Подсказка для заполнения"
+      minLength: 1
+      maxLength: 500
+    field2:
+      type: string
+      title: "Название колонки 2"
+      description: "Подсказка для заполнения"
+    field3:
+      type: number
+      title: "Числовое поле"
+      minimum: 0
+      maximum: 100
+
+# Определение колонок для отображения
+columns:
+  - name: field1
+    title: "Колонка 1"
+    width: 200
+    required: true
+  - name: field2
+    title: "Колонка 2"
+    width: 300
+    required: true
+  - name: field3
+    title: "Колонка 3"
+    width: 100
+    required: false
+
+# Примеры заполнения (для обучения и демонстрации)
+examples:
+  - field1: "Пример значения 1"
+    field2: "Пример значения 2"
+    field3: 42
+  - field1: "Другой пример"
+    field2: "Другое значение"
+    field3: 75
+
+# Критерии оценки для ДЗ-чекера
+homework:
+  min_rows: 3
+  criteria:
+    - "Все обязательные поля заполнены"
+    - "Значения соответствуют контексту задания"
+    - "Нет дублирующихся записей"
+    - "Формулировки конкретны и измеримы"
+
+# Метаданные
+meta:
+  created: "YYYY-MM-DD"
+  updated: "YYYY-MM-DD"
+  version: "1.0"
