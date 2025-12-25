@@ -9,7 +9,7 @@ created: 2020-01-01
 modified: 2025-09-12
 
 structure:
-  sections_count: 9
+  sections_count: 10
   subsections_count: 45
   content_type: full
 
@@ -98,13 +98,13 @@ homework:
 
 ## Задания перед началом
 
-Перед изучением руководства выполните подготовительные задания:
+Перед изучением руководства выполните [подготовительные задания](00-intro/01-preparation.question.yaml):
 
-- [01. Неудовлетворённости и ожидания](00-intro/01-expectations.question.yaml)
-- [02. Подход к обучению](00-intro/02-learning-approach.question.yaml)
-- [03. Трекер времени](00-intro/03-time-tracker.question.yaml)
-- [04. Экзокортекс](00-intro/04-exocortex.question.yaml)
-- [05. Мышление письмом](00-intro/05-writing-thinking.question.yaml)
+1. Неудовлетворённости и ожидания
+2. Подход к обучению
+3. Трекер времени
+4. Экзокортекс
+5. Мышление письмом
 
 ---
 
