@@ -1,17 +1,14 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.6"
+id: "1.1.01.06"
+type: text
 title: Социальная среда
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-11-social-influence.png
   - fig-12-interests.png
   - fig-13-neuromarketing.png
   - fig-14-attention-competition.png
-referenced_concepts:
+concepts:
   - социальная среда
   - внимание
 ---

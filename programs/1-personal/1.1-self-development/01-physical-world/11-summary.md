@@ -1,13 +1,7 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.11"
+id: "1.1.01.11"
+type: text
 title: Саммари раздела
-status: active
-modified: 2025-09-12
-content_type: summary
-images: []
-referenced_concepts: []
 ---
 
 # 1.11. Саммари раздела

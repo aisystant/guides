@@ -1,0 +1,160 @@
+# Структура курса "Системное саморазвитие"
+# Это единый источник истины для навигации и машинной обработки
+
+id: C.Guide.SelfDevelopment
+code: "1.1"
+title: Системное саморазвитие
+program: C.Program.PersonalDevelopment
+
+meta:
+  version: "3.1.3"
+  status: active
+  created: 2020-01-01
+  modified: 2025-09-12
+  estimated_hours: 45-90
+
+authors:
+  main: Церен Церенов
+  maintainers:
+    - Анатолий Левенчук
+    - Анна Лубенченко
+
+prerequisites: []
+unlocks:
+  - "1.2-practices"
+
+# Структура разделов курса
+sections:
+  - id: "00"
+    path: 00-intro
+    title: Введение
+    description: О руководстве и подготовительные задания
+    estimated_hours: 1
+    items:
+      - id: "01"
+        file: 01-about.md
+        type: text
+        title: О руководстве
+      - id: "02"
+        file: 02-preparation.question.yaml
+        type: question
+        title: "Задания: подготовка к обучению"
+
+  - id: "01"
+    path: 01-physical-world
+    title: Физический мир и ментальное пространство
+    description: Введение в системное мировосприятие
+    estimated_hours: 5-10
+    items:
+      - id: "01"
+        file: 01-mental-space.md
+        type: text
+        title: Ментальное пространство
+      - id: "02"
+        file: 02-theory-models.md
+        type: text
+        title: Теория, модели и мышление
+      - id: "03"
+        file: 03-technoevolution.md
+        type: text
+        title: Техноэволюция
+      - id: "04"
+        file: 04-creator.md
+        type: text
+        title: Создатель
+      - id: "05"
+        file: 05-human-body-personality.md
+        type: text
+        title: Тело и личность человека
+      - id: "06"
+        file: 06-social-environment.md
+        type: text
+        title: Социальная среда
+      - id: "07"
+        file: 07-progress-pros-cons.md
+        type: text
+        title: "Прогресс: плюсы и минусы"
+      - id: "08"
+        file: 08-life-mastery.md
+        type: text
+        title: Жизненное мастерство
+      - id: "09"
+        file: 09-thinking-intellect.md
+        type: text
+        title: Мышление и интеллект
+      - id: "10"
+        file: 10-problems-tasks.md
+        type: text
+        title: Проблемы и задачи
+      - id: "11"
+        file: 11-summary.md
+        type: text
+        title: Итоги раздела
+      - id: "12"
+        file: 12-concepts.table.yaml
+        type: table
+        title: "Моделирование: понятия"
+      - id: "13"
+        file: 13-review.question.yaml
+        type: question
+        title: Вопросы для повторения
+      - id: "14"
+        file: 14-homework.question.yaml
+        type: question
+        title: Домашнее задание
+
+  - id: "02"
+    path: 02-learning-time
+    title: Обучение и время
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "03"
+    path: 03-focus-attention
+    title: Собранность и внимание
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "04"
+    path: 04-systems-psychology
+    title: Системный подход в психологии личности
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "05"
+    path: 05-role-mastery
+    title: Роль, ролевое мастерство и метод
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "06"
+    path: 06-systems-thinking
+    title: Что такое системное мышление
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "07"
+    path: 07-engineering-management
+    title: Инженерия, менеджмент, предпринимательство
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "08"
+    path: 08-personality-ai
+    title: "Личность и агент: человек и ИИ"
+    description: null
+    estimated_hours: null
+    items: []
+
+  - id: "09"
+    path: 09-personal-trajectory
+    title: Личная траектория развития
+    description: null
+    estimated_hours: null
+    items: []

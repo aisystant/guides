@@ -1,18 +1,13 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.1"
+id: "1.1.01.01"
+type: text
 title: Что такое ментальное пространство
-status: active
-modified: 2025-09-12
 
-content_type: full
-word_count: 1200
+# Дополнительные метаданные контента
 reading_time: 6
-images: ["fig-01-mental-space.jpg"]
-
-depends_on: []
-referenced_concepts:
+images:
+  - fig-01-mental-space.jpg
+concepts:
   - физический мир
   - ментальное пространство
   - техноэволюция

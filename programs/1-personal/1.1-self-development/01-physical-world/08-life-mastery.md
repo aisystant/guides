@@ -1,13 +1,9 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.8"
+id: "1.1.01.08"
+type: text
 title: Жизненное мастерство
-status: active
-modified: 2025-09-12
-content_type: full
-images: []
-referenced_concepts:
+
+concepts:
   - мастерство
   - метод
   - рабочий продукт

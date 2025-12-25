@@ -1,15 +1,12 @@
 ---
-guide: C.Guide.SelfDevelopment
-section: 01-physical-world
-subsection: "1.7"
+id: "1.1.01.07"
+type: text
 title: Плюсы и минусы прогресса
-status: active
-modified: 2025-09-12
-content_type: full
+
 images:
   - fig-15-info-consumption.png
   - fig-16-stratification.png
-referenced_concepts:
+concepts:
   - потребление информации
   - простота для пользователя
   - сложность для создателя
