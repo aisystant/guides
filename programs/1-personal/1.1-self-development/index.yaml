@@ -14,10 +14,8 @@ meta:
   estimated_hours: 45-90
 
 authors:
-  main: Церен Церенов
-  maintainers:
-    - Анатолий Левенчук
-    - Анна Лубенченко
+  - Церен Церенов
+  - Анна Лубенченко
 
 prerequisites: []
 unlocks:
