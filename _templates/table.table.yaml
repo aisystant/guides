@@ -1,50 +1,41 @@
 # Шаблон таблицы моделирования
-# Код: T.P.G.SS.NN (T = Table, P = Program, G = Guide, SS = Section, NN = Number)
+# Расположение: inline (в потоке контента) или grouped (в папке tables/)
+#
+# Нумерация:
+# - Inline: P.G.SS.NN (Program.Guide.Section.Number)
+# - Grouped: T.P.G.SS.GNN (T=Table, Program.Guide.Section.GroupNumber)
+#
+# Пример: T.1.1.02.05 = Таблица в программе 1, руководстве 1, разделе 02, позиция 05
 
-id: T.TableName
+id: T.P.G.SS.NN
 title: "Название таблицы"
 description: "Описание назначения таблицы и как её заполнять"
 
 # Ссылка на инструкцию, которая объясняет как заполнять таблицу
 guide_ref: "P.G.SS.NN"
 
-# JSON Schema для валидации данных
-schema:
-  type: object
-  required:
-    - field1
-    - field2
-  properties:
-    field1:
-      type: string
-      title: "Название колонки 1"
-      description: "Подсказка для заполнения"
-      minLength: 1
-      maxLength: 500
-    field2:
-      type: string
-      title: "Название колонки 2"
-      description: "Подсказка для заполнения"
-    field3:
-      type: number
-      title: "Числовое поле"
-      minimum: 0
-      maximum: 100
-
-# Определение колонок для отображения
+# Определение колонок
 columns:
   - name: field1
     title: "Колонка 1"
-    width: 200
+    description: "Подсказка для заполнения"
+    type: string  # string | number | date | enum
     required: true
+    width: 200
   - name: field2
     title: "Колонка 2"
-    width: 300
+    description: "Подсказка для заполнения"
+    type: string
     required: true
+    width: 300
   - name: field3
     title: "Колонка 3"
-    width: 100
+    description: "Числовое поле"
+    type: number
     required: false
+    width: 100
+    min: 0
+    max: 100
 
 # Примеры заполнения (для обучения и демонстрации)
 examples:
@@ -56,7 +47,7 @@ examples:
     field3: 75
 
 # Критерии оценки для ДЗ-чекера
-homework:
+evaluation:
   min_rows: 3
   criteria:
     - "Все обязательные поля заполнены"
