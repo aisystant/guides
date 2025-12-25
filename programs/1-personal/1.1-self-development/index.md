@@ -85,6 +85,7 @@ homework:
 
 | Раздел | Название | Папка |
 |--------|----------|-------|
+| 0 | Введение (подготовительные задания) | `00-intro/` |
 | 1 | Физический мир и ментальное пространство | `01-physical-world/` |
 | 2 | Обучение и время | `02-learning-time/` |
 | 3 | Собранность и внимание | `03-focus-attention/` |
@@ -99,11 +100,11 @@ homework:
 
 Перед изучением руководства выполните подготовительные задания:
 
-- [01. Неудовлетворённости и ожидания](questions/01-expectations.question.yaml)
-- [02. Подход к обучению](questions/02-learning-approach.question.yaml)
-- [03. Трекер времени](questions/03-time-tracker.question.yaml)
-- [04. Экзокортекс](questions/04-exocortex.question.yaml)
-- [05. Мышление письмом](questions/05-writing-thinking.question.yaml)
+- [01. Неудовлетворённости и ожидания](00-intro/01-expectations.question.yaml)
+- [02. Подход к обучению](00-intro/02-learning-approach.question.yaml)
+- [03. Трекер времени](00-intro/03-time-tracker.question.yaml)
+- [04. Экзокортекс](00-intro/04-exocortex.question.yaml)
+- [05. Мышление письмом](00-intro/05-writing-thinking.question.yaml)
 
 ---
 
