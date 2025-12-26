@@ -171,9 +171,73 @@ sections:
   - id: "03"
     path: 03-focus-attention
     title: Собранность и внимание
-    description: null
-    estimated_hours: null
-    items: []
+    description: Управление вниманием, собранность как мастерство и трансдисциплина
+    estimated_hours: 5-10
+    items:
+      - id: "01"
+        file: 01-what-is-focus.md
+        type: text
+        title: Что такое собранность
+      - id: "02"
+        file: 02-attention.md
+        type: text
+        title: Внимание
+      - id: "03"
+        file: 03-important-current-urgent.md
+        type: text
+        title: Важное, текущее и срочное
+      - id: "04"
+        file: 04-rational-work.md
+        type: text
+        title: Рациональная работа
+      - id: "05"
+        file: 05-time-scales-attention.md
+        type: text
+        title: Временные масштабы внимания
+      - id: "06"
+        file: 06-attention-loss.md
+        type: text
+        title: Потеря внимания
+      - id: "07"
+        file: 07-conceptual-attention.md
+        type: text
+        title: Понятийное наведение внимания
+      - id: "08"
+        file: 08-focus-in-learning.md
+        type: text
+        title: Собранность в обучении
+      - id: "09"
+        file: 09-exocortex-for-focus.md
+        type: text
+        title: Экзокортекс для собранности
+      - id: "10"
+        file: 10-attention-in-moment.md
+        type: text
+        title: Внимание в моменте
+      - id: "11"
+        file: 11-dark-side-focus.md
+        type: text
+        title: Темная сторона собранности
+      - id: "12"
+        file: 12-cyber-personality.md
+        type: text
+        title: Киберличность
+      - id: "13"
+        file: 13-summary.md
+        type: text
+        title: Саммари раздела
+      - id: "14"
+        file: 14-concepts.table.yaml
+        type: table
+        title: "Моделирование: понятия"
+      - id: "15"
+        file: 15-review.question.yaml
+        type: question
+        title: Вопросы для повторения
+      - id: "16"
+        file: 16-homework.question.yaml
+        type: question
+        title: Домашнее задание
 
   - id: "04"
     path: 04-systems-psychology
