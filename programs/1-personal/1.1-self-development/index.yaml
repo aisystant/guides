@@ -104,9 +104,69 @@ sections:
   - id: "02"
     path: 02-learning-time
     title: Обучение и время
-    description: null
-    estimated_hours: null
-    items: []
+    description: Модели обучения, управление временем и инвестирование в развитие
+    estimated_hours: 5-10
+    items:
+      - id: "01"
+        file: 01-learning.md
+        type: text
+        title: Обучение
+      - id: "02"
+        file: 02-knowledge-worldview.md
+        type: text
+        title: Знания и мировоззрение человека
+      - id: "03"
+        file: 03-intellect-stack.md
+        type: text
+        title: Интеллект-стек
+      - id: "04"
+        file: 04-culture.md
+        type: text
+        title: Культура
+      - id: "05"
+        file: 05-three-skills.md
+        type: text
+        title: Умение учиться, умение думать, умение делать
+      - id: "06"
+        file: 06-career-orientation.md
+        type: text
+        title: Профориентация
+      - id: "07"
+        file: 07-learning-models.md
+        type: text
+        title: Модели обучения
+      - id: "08"
+        file: 08-time.md
+        type: text
+        title: Время
+      - id: "09"
+        file: 09-time-investment.md
+        type: text
+        title: Инвестирование времени
+      - id: "10"
+        file: 10-leisure-organization.md
+        type: text
+        title: Осознанное времяпрепровождение и организация досуга
+      - id: "11"
+        file: 11-longevity-aesthetics.md
+        type: text
+        title: Продление жизни и эстетика человека
+      - id: "12"
+        file: 12-summary.md
+        type: text
+        title: Саммари раздела
+      - id: "13"
+        file: 13-concepts.table.yaml
+        type: table
+        title: "Моделирование: понятия"
+      - id: "14"
+        file: 14-review.question.yaml
+        type: question
+        title: Вопросы для повторения
+      - id: "15"
+        file: 15-homework.question.yaml
+        type: question
+        title: Домашнее задание
 
   - id: "03"
     path: 03-focus-attention
