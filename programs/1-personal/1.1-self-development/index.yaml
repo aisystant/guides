@@ -270,9 +270,33 @@ sections:
   - id: "08"
     path: 08-personality-ai
     title: "Личность и агент: человек и ИИ"
-    description: null
-    estimated_hours: null
-    items: []
+    description: Агенты, искусственный интеллект и модели действия человека
+    estimated_hours: 5-10
+    items:
+      - id: "01"
+        file: 01-agents.md
+        type: text
+        title: Агенты
+      - id: "02"
+        file: 02-surprises-optimism.md
+        type: text
+        title: Неожиданности и принцип оптимизма
+      - id: "03"
+        file: 03-anxiety-burnout.md
+        type: text
+        title: Фундаментальная причина беспокойств, депрессии и выгорания
+      - id: "04"
+        file: 04-free-will.md
+        type: text
+        title: Свобода воли
+      - id: "05"
+        file: 05-two-keys-for-action.md
+        type: text
+        title: "«Два ключа» для действия человека"
+      - id: "06"
+        file: 06-artificial-intelligence.md
+        type: text
+        title: Искусственный интеллект
 
   - id: "09"
     path: 09-personal-trajectory
